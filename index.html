@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
+  
+  <title>Linktree</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="profile">
+      <img src="./assets/avatar.png" 
+        alt=""
+      >
+      <p>@jorgee.mario</p>
+    </div>
+
+    <div id="switch" onclick="toggleMode()">
+      <button>
+      </button>
+      <span></span>
+    </div>
+
+    <ul>
+      <li>
+        <a href="https://portfolio-gemario.vercel.app/" target="_blank">
+          <i class="ph-link"></i>
+          My portfolio
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.instagram.com/jorgee.mario/" target="_blank">
+          <i class="ph-instagram-logo"></i>
+          Instagram
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.facebook.com/jorge.mario.330467" target="_blank">
+          <i class="ph-facebook-logo"></i>
+          Facebook
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.linkedin.com/in/jorgemarioo/" target="_blank">
+          <i class="ph-linkedin-logo"></i>
+          LinkedIn
+        </a>
+      </li>
+
+      <li>
+        <a href="https://github.com/gemario" target="_blank">
+          <i class="ph-github-logo"></i>
+          Github
+        </a>
+      </li>
+    </ul>
+
+    <div id="subtitle">
+      <span>#Segue lá nas redes sociais!</span>
+      <i class="ph-thumbs-up"></i>
+    </div>
+
+    <footer>
+      <p>©2023 Jorge Mario.</p>
+    </footer>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
